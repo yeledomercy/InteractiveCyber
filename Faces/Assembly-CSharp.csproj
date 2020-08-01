@@ -62,15 +62,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ChangeAvatar.cs" />
-    <Compile Include="Assets\ChangeHead.cs" />
-    <Compile Include="Assets\Hand Collisions\Vibrate Left Hand on Collision.cs" />
-    <Compile Include="Assets\Hand Collisions\Vibrate Right Hand on Collision.cs" />
-    <Compile Include="Assets\HandCollision.cs" />
-    <Compile Include="Assets\MagicMirror\Demo\DemoScript.cs" />
-    <Compile Include="Assets\MagicMirror\Prefab\MirrorCameraScript.cs" />
-    <Compile Include="Assets\MagicMirror\Prefab\MirrorReflectionScript.cs" />
-    <Compile Include="Assets\MagicMirror\Prefab\MirrorScript.cs" />
     <Compile Include="Assets\Normal\Examples\Blank Scene Template\Scripts\OculusSetFloorTrackingOriginWithoutPlugin.cs" />
     <Compile Include="Assets\Normal\Examples\Cube Player\Scripts\CubePlayer.cs" />
     <Compile Include="Assets\Normal\Examples\Cube Player\Scripts\CubePlayerManager.cs" />
@@ -434,13 +425,18 @@
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPVersion.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\OculusSpatializerUnity.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\helpers\ONSPReflectionZone.cs" />
-    <Compile Include="Assets\RandomizeLogin.cs" />
-    <Compile Include="Assets\SetHead.cs" />
-    <Compile Include="Assets\VibrateControllers.cs" />
+    <Compile Include="Assets\Scripts\ChangeHead.cs" />
+    <Compile Include="Assets\Scripts\HandCollision.cs" />
+    <Compile Include="Assets\Scripts\MouseCamera.cs" />
+    <Compile Include="Assets\Scripts\ScaleByHeadRotation.cs" />
+    <Compile Include="Assets\Scripts\SetHead.cs" />
+    <Compile Include="Assets\Scripts\Vibrate Left Hand on Collision.cs" />
+    <Compile Include="Assets\Scripts\Vibrate Right Hand on Collision.cs" />
+    <Compile Include="Assets\Scripts\VibrateControllers.cs" />
+    <Compile Include="Assets\Scripts\VideoController.cs" />
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarMaterialStateShader.cginc" />
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\ButtonGlow.shader" />
-    <None Include="Assets\MagicMirror\Prefab\Readme.txt" />
     <None Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\CrosshairZCheat.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_Mobile_Loader.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\GradientSkybox.shader" />
@@ -450,11 +446,9 @@
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Expressive\Avatar_PC_SingleComponentExpressive.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\OculusSampleTrainPropsShader.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\ToyCubeWithOutline.shader" />
-    <None Include="Assets\MagicMirror\Prefab\MirrorShader.shader" />
     <None Include="Assets\Oculus\SampleFramework\Core\Locomotion\Materials\ColumnGlow.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Expressive\Avatar_Mobile_CombinedMeshExpressive.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_PC_SingleComponent.shader" />
-    <None Include="Assets\MagicMirror\Prefab\MirrorShaderBumpMap.shader" />
     <None Include="Assets\Normal\Examples\Blank Scene Template\Skybox\GradientSkybox.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarSurfaceShaderPBSV2.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_Mobile_CombinedMesh.shader" />
@@ -463,7 +457,6 @@
     <None Include="Assets\Oculus\Avatar\Samples\SocialStarter\README.txt" />
     <None Include="Assets\Oculus\SampleFramework\Core\CustomHands\Shaders\Hands_01.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarPBRV2Simple.shader" />
-    <None Include="Assets\MagicMirror\Prefab\MirrorShaderOld.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarSurfaceShaderSelfOccluding.shader" />
     <None Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Shaders\OculusSampleAlphaHandOutline.shader" />
     <None Include="Assets\Normal\Examples\Blank Scene Template\Floor\Floor.shader" />
